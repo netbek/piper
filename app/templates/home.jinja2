@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Home</title>
+
+    <link rel="stylesheet" href="/node_modules/bokehjs/build/css/bokeh.min.css" />
+    <link rel="stylesheet" href="/node_modules/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="/node_modules/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="/node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+    <style>
+      {% include 'css/home.css' %}
+    </style>
+
+    <script src="/node_modules/bokehjs/build/js/bokeh.min.js"></script>
+    <script src="/node_modules/leaflet/dist/leaflet.js"></script>
+    <script src="/node_modules/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="/node_modules/leaflet.Permalink/leaflet.permalink.min.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var points = {{ points_json|safe }};
+
+      {% include 'js/home.js' %}
+    </script>
+  </body>
+</html>

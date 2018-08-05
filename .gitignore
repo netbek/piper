@@ -1,0 +1,7 @@
+*.egg-info
+*.pyc
+app/cache/
+data/schools/*.db
+node_modules/
+venv/
+.vscode
