@@ -2,7 +2,7 @@
 *.pyc
 app/cache/
 data/schools/*.db
-node_modules/
+/node_modules/
 venv/
 .vscode
 
