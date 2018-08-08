@@ -15,18 +15,6 @@ def main(global_config, **settings):
     # Routes
     config.add_route('home', '/')
 
-    # config.add_route('plots_altair', '/altair')
-    # config.add_route('api.altair', '/api/altair')
-
-    # config.add_route('plots_bokeh', '/bokeh')
-    # config.add_route('api.bokeh', '/api/bokeh')
-
-    # config.add_route('plots_ggplot2', '/ggplot2')
-
-    # config.add_route('data_table_jquery', '/data-table-jquery')
-    # config.add_route('data_table_jquery_component', '/data-table-jquery-component')
-    # config.add_route('data_table_react_component', '/data-table-react-component')
-
     # Views
     config.scan()
 

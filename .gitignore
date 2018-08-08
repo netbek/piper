@@ -5,3 +5,6 @@ data/schools/*.db
 node_modules/
 venv/
 .vscode
+
+# GH pages
+.publish
