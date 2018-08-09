@@ -35,6 +35,16 @@
 
 2. If the browser cannot connect to the app within a few seconds, then open http://localhost:8080
 
+## Static site
+
+[netbek.github.io/piper](https://netbek.github.io/piper)
+
+To publish the GitHub Pages static site, run:
+
+```shell
+npm run-script deploy
+```
+
 ## License
 
 Copyright (c) 2018 Hein Bekker. Licensed under the GNU Affero General Public License, version 3.
