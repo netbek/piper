@@ -42,6 +42,7 @@
 To publish the GitHub Pages static site, run:
 
 ```shell
+cd /path/to/piper
 npm run-script deploy
 ```
 
